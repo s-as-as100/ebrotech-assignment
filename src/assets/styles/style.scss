@@ -1,6 +1,4 @@
-@import "./mixin.scss";
-@import "./variable.scss";
-
+ 
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +11,5 @@
 }
 
 body {
-  background-color: $primary;
-  font-family: Arial, sans-serif;
+   font-family: Arial, sans-serif;
 }
