@@ -1,12 +1,10 @@
-  import './App.css'
-
-function App() {
+import "./../src/assets/styles/style.scss";
  
+function App() {
   return (
-    <>
-         
-    </>
-  )
+    <div>
+     </div>
+  );
 }
 
-export default App
+export default App;

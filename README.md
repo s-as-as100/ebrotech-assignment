@@ -1,12 +1,14 @@
-# React + Vite
+# React 19 + Vite + Ant Design + SCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built with React 19 and uses Vite for fast development. The project integrates Ant Design (antd) for UI components and utilizes SCSS as the CSS preprocessor for styling.
 
-Currently, two official plugins are available:
+# Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React: ^19.1.0
 
-## Expanding the ESLint configuration
+Vite: Fast build tool and development server
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ant Design (antd): ^5.25.1 – A popular React UI library for building clean and modern web interfaces.
+
+SCSS: ^1.88.0 – SCSS preprocessor used for modular and maintainable styling.
+
