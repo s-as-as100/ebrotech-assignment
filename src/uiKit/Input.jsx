@@ -8,8 +8,7 @@ import { Input as CustomInput } from "antd";
       value={value}
       onChange={onChange}
       className={className}
-       
-    />
+   />
   );
 };
 

@@ -19,6 +19,7 @@ body {
 .primary-button {
   background: linear-gradient(to right, $primary, $primarylight);
   font-family:$popinfont ;
+  font-size: 0.8rem;
 
   &:hover {
     background: linear-gradient(to right, $primarylight, $primary) !important;
@@ -56,3 +57,20 @@ body {
   width: 2rem;
   height: 2rem;
 }
+
+
+.icon-md {
+  width: 3rem;
+  height: 3rem;
+}
+
+.margin-top-1 {
+  margin-top: 1rem;
+}
+
+ 
+.approved-btn {
+
+  padding: 1rem 0.5rem;
+  border-radius: 5px;
+ }

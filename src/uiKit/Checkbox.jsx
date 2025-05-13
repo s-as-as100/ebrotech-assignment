@@ -2,9 +2,9 @@ import React from 'react'
 import { Checkbox as CustomCheckbox } from "antd";
 
 
-const Checkbox = ({onChange,label}) => {
+const Checkbox = ({onChange,label,value}) => {
   return (
-    <CustomCheckbox onChange={onChange}>{label}</CustomCheckbox>
+    <CustomCheckbox value={value} onChange={onChange}>{label}</CustomCheckbox>
   )
 }
 
