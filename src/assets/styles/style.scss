@@ -1,4 +1,6 @@
- 
+ @use "../../assets/styles/variable.scss" as *;
+
+
 * {
   margin: 0;
   padding: 0;
@@ -12,4 +14,32 @@
 
 body {
    font-family: Arial, sans-serif;
+}
+
+.primary-button {
+  background: linear-gradient(to right, $primary, $primarylight);
+  font-family:$popinfont ;
+
+  &:hover {
+    background: linear-gradient(to right, $primarylight, $primary) !important;
+    color: $white !important;
+  }
+}
+
+
+.poppins-font-family {
+  font-family: $popinfont;
+}
+
+
+.font-size-small {
+  font-size: 0.7rem;
+}
+
+.font-size-md {
+  font-size: 0.8rem;
+}
+  
+.font-size-lg {
+  font-size: 1rem;
 }

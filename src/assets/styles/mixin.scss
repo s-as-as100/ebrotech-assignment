@@ -1,2 +1,9 @@
   
  
+
+ @mixin center-along-xy {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
