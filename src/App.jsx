@@ -1,8 +1,15 @@
 import "./App.css";
-import LoginCard from "./components/LoginCard/LoginCard";
+import Login from "./pages/login/Login";
+import { Routes, Route } from "react-router-dom";
+import SingleInvite from "./pages/singleInvite/SingleInvite";
 
 function App() {
-  return <div> <LoginCard/> </div>;
+  return (
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/single-invite" element={<SingleInvite />} />
+    </Routes>
+  );
 }
 
 export default App;
