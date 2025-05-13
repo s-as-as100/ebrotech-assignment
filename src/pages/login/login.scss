@@ -1,12 +1,41 @@
 .login-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  padding: 0 2rem;
 
-    padding: 0 2rem;
+   &::before {
+    content: '';
+    background: url('../../assets/images/loginbg.png') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+  }
+
+  &::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.6); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .left-content {
+    width: 60%;
+    color: #fff;
+
    
-    .right-content {
-        width: 35%;
-    }
+  }
+
+  .right-content {
+    width: 35%;
+  }
 }

@@ -4,9 +4,8 @@
 .card-container {
   @include center-along-xy;
   height: 70vh;
-  // width: 40%;
-  gap: 0.5rem;
-  background-color: $white;
+   gap: 0.5rem;
+  background-color: $backgroundlight;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 
   .login-form {
