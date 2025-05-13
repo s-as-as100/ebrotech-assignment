@@ -1,0 +1,41 @@
+@use "../../assets/styles/variable" as *;
+@use "../../assets/styles/mixin" as *;
+
+.side-container {
+    height: 100vh;
+    background: $white;
+    width: 20rem;
+
+    .sidebar-header {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        height: 20vh;
+        justify-content: center;
+    }
+
+    .sidebar-content {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        height: 80vh;
+         text-align: justify;
+    }
+
+    .sidebar-item {
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1rem;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        &.active {
+            background-color: $primary;
+            color: $white;
+            font-weight: 600;
+        }
+    }
+}

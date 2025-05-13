@@ -1,0 +1,12 @@
+@use "../../assets/styles/variable" as *;
+@use "../../assets/styles/mixin" as *;
+
+
+.single-invite-container{
+    display: flex;
+    background-color: $backgroundlight;
+}
+
+.single-invite-content {
+  width: 100%;
+}
