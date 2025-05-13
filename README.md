@@ -1,6 +1,6 @@
 # React 18 + Vite + Ant Design + SCSS
 
-This project is built with React 19 and uses Vite for fast development. The project integrates Ant Design (antd) for UI components and utilizes SCSS as the CSS preprocessor for styling.
+This project is built with React 18 and uses Vite for fast development. The project integrates Ant Design (antd) for UI components and utilizes SCSS as the CSS preprocessor for styling.
 
 # Technologies Used
 
